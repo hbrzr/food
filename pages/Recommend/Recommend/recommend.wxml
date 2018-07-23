@@ -1,0 +1,21 @@
+<view>
+<scroll-view class="container" scroll-y='true'>
+  <block wx:for="{{restaurant}}" wx:key="">
+  <navigator url="/pages/Recommend/Detail/detail?restaurantname={{item.restaurantname}}">
+    <view class="restaurantList">
+      <view class="restaurant-title">
+        <view class="restaurant-title-restaurantname">{{item.restaurantname}}</view>
+      </view>
+      <view class="restaurant-content">
+        <image class="restaurant-content-restaurantImg" src="{{item.Imagesrc}}"></image>
+        <view class="restaurant-content-info">
+          <view class="restaurant-content-info-address">地址：{{item.address}}</view>
+          <view class="restaurant-content-info-business">营业时间：{{item.businesstime}}</view>
+          <view class="restaurant-content-info-telephone">联系电话：{{item.telephone}}</view>
+        </view>
+      </view>
+    </view>
+  </navigator>
+  </block>
+</scroll-view>
+</view>

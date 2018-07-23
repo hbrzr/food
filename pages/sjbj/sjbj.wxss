@@ -1,0 +1,100 @@
+.weui-label{
+  display: flex;
+  align-items: center;
+  justify-content: center;  
+}
+
+.jianjbt{
+  display: flex;
+  align-items: center;
+  justify-content: center;  
+}
+
+.dizbt{
+  display: flex;
+  align-items: center;
+  justify-content: center;  
+}
+
+.gonggbt{
+  display: flex;
+  align-items: center;
+  justify-content: center;  
+}
+
+.dianhbt{
+  display: flex;
+  align-items: center;
+  justify-content: center;  
+}
+
+.shijbt{
+  display: flex;
+  align-items: center;
+  justify-content: center;  
+}
+
+.jianjsr{
+  border: 1px solid #70bcf6; 
+  border-radius: 2px;  
+  background-color: white;
+  height:100rpx;
+  width: 97.3%;
+  border-width:3px;
+  margin-bottom:50rpx;
+}
+
+.gonggsr{
+   border: 1px solid #70bcf6; 
+  border-radius: 2px;  
+  background-color: white;
+  height:100rpx;
+  width: 97.3%;
+  border-width:3px;
+  margin-bottom:50rpx;
+}
+
+.dizsra{
+   border: 1px solid #70bcf6; 
+  border-radius: 2px;  
+  background-color: white;
+  height:100rpx;
+  width: 97.3%;
+  border-width:3px;
+  margin-bottom:50rpx;
+}
+
+.dianhsra{
+   border: 1px solid #70bcf6; 
+  border-radius: 2px;  
+  background-color: white;
+  height:50rpx;
+  width: 97.3%;
+  border-width:3px;
+  margin-bottom:50rpx;
+}
+
+.shijsra{
+   border: 1px solid #70bcf6; 
+  border-radius: 2px;  
+  background-color: white;
+  height:50rpx;
+  width: 97.3%;
+  border-width:3px;
+}
+
+.bcsj{
+  width:130px;
+  border-radius: 3px;
+  margin:20px auto;
+  padding-top:2px;
+  font-size:14px;
+  overflow:hidden;
+  height:40px;
+}
+
+.queding {
+position: fixed;
+bottom: 0;
+width: 100%;
+}

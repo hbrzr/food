@@ -1,0 +1,58 @@
+<view class="swiper-tab">
+  <view class="swiper-tab-list {{currentTab==0 ? 'on' : ''}}" data-current="0" bindtap="swichNav">未完成订单</view>
+  <view class="swiper-tab-list {{currentTab==1 ? 'on' : ''}}" data-current="1" bindtap="swichNav">已完成订单</view>
+</view>
+
+<swiper current="{{currentTab}}" class="swiper-box" duration="300" style="height:{{winHeight - 31}}px" bindchange="bindChange">
+  <swiper-item>
+    <view>
+      <scroll-view class="container" scroll-y='true'>
+        <block wx:for="{{orderlist}}" wx:key="">
+          <view class="orderList">
+            <view class="order-title">
+              <view class="order-title-restaurantname">{{item.shopname}}</view>
+
+            </view>
+            <view class="order-content">
+              <image class="order-content-restaurantImg" src="{{item.imgsrc}}"></image>
+              <view class="order-content-info">
+                <view class="order-content-info-howToDistribute">价格:{{price}}</view>
+                <view class="order-content-info-howToDistribute">用餐时间：{{ddtime}}</view>
+                <view class="order-content-info-howToDistribute">用餐地址:{{item.address}}</view>
+              </view>
+            </view>
+            <view class="order-footer">
+              <navigator class="order-footer-orderAgain" url='/pages/detail/detail' style='margin-right:40rpx'>详细信息</navigator>
+            </view>
+          </view>
+        </block>
+      </scroll-view>
+    </view>
+  </swiper-item>
+  <swiper-item>
+    <view>
+      <scroll-view class="container" scroll-y='true'>
+        <block wx:for="{{orderlistDone}}" wx:key="">
+          <view class="orderList">
+            <view class="order-title">
+              <view class="order-title-restaurantname">{{item.shopname}}</view>
+            </view>
+            <view class="order-content">
+              <image class="order-content-restaurantImg" src="{{item.imgsrc}}"></image>
+              <view class="order-content-info">
+                <view class="order-content-info-price">￥ {{item.price}}</view>
+                <view class="order-content-info-date">下单时间:{{item.time}}</view>
+                <view class="order-content-info-howToDistribute">用餐时间：{{item.arrivetime}}</view>
+                <view class="order-content-info-howToDistribute">用餐地址:{{item.address}}</view>
+              </view>
+            </view>
+            <view class="order-footer">
+              <navigator class="order-footer-orderAgain" url='/Pages/Order/Detail/detail'>详细信息</navigator>
+              <view class="order-footer-goToComment">去评论</view>
+            </view>
+          </view>
+        </block>
+      </scroll-view>
+    </view>
+  </swiper-item>
+</swiper>

@@ -1,0 +1,12 @@
+<template name="caidan">
+  <view class='listContain'>
+    <image src='{{imgsrc}}' class='cainameImage'></image>
+    <view class='caiContain'>
+      <text>{{cainame}}</text>
+      <view class='numberContain'>
+        <text class='pricetext'>￥{{price}}</text>
+      </view>
+    </view>
+  </view>
+  <view class='blockcontain'></view>
+</template>

@@ -1,0 +1,7 @@
+<!--pages/xindz/xindz.wxml-->
+<view class="dizsr">
+  <textarea class="jianjsra" type="text" placeholder="请输入新的公司地址" bindinput="shurudz"></textarea>
+</view>      
+<view class="anniu">
+  <button type="default" formType="submit" bindtap='queding'>确定</button>
+</view>

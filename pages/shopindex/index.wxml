@@ -1,0 +1,19 @@
+<import src="../../moban/caidan-template.wxml" />
+<view class="caipinbj">
+  <text bindtap='tiaocpbj'>+添加菜品</text>
+</view>
+<view class='blockContain'>
+  <view class='caidanblock'>
+    <block wx:for="{{dianCai}}">
+      <template is="caidan" data="{{...item}}" />
+      <view class='scjian' catchtap='delete' data-id='{{index}}'>删除</view>
+    </block>
+  </view>
+</view>
+
+
+
+
+
+
+

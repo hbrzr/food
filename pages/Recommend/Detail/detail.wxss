@@ -1,0 +1,49 @@
+.container{
+  height: 100%;
+  background-color: #FAEBD7
+}
+
+.swiper_box {
+    height: 400rpx;
+    width: 100%;
+    background-color: #FFE4E1
+}
+swiper-item image {
+    height: 100%;
+    width: 100%;
+    display: inline-block;
+    overflow: hidden;
+}
+
+.detail{
+  height: 180rpx;
+  display: flex;
+  flex-direction: column;
+  border-style: solid;
+  border-width: 3rpx;
+  border-color:#EEB4B4;
+  margin: 20rpx 0;
+  font-size: 30rpx
+}
+
+.image-style{
+  width: 600rpx;
+  height: 500rpx;
+  margin: 20rpx 75rpx 20rpx 75rpx
+}
+.intro{
+  font-size: 25rpx;
+  font-family: sans-serif;
+  border-style: solid;
+  border-color: #EEB4B4;
+  border-width: 4rpx
+}
+.link{
+  display: inline-flex;
+  border-style: solid;
+  border-width: 3rpx;
+  border-color: #D8BFD8;
+  margin: 5rpx 20rpx 5rpx 0;
+  background-color: #FFE4B5
+}
+

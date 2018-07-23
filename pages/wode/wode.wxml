@@ -1,0 +1,59 @@
+<!--pages/wode/wode.wxml-->
+<view class="touxiang">
+  <image class="userinfo-avatar" src="../../images//全聚德王府井店/环境1.jpg"></image>
+</view>
+<view class="shangjiaming">
+  <text>{{sjming}}</text>
+</view>
+
+<view class="weui-cells weui-cells_after-title">
+  <view class="weui-cell weui-cell_input">
+    <view class="weui-cell__hd">
+      <view class="weui-label">简介</view>
+    </view>
+    <view class="weui-cell__bd">
+      <text class="weui-inputa" bindtap='tiaojj'>{{jianjie}}</text>
+    </view>
+  </view>
+  <view class="weui-cell weui-cell_input">
+    <view class="weui-cell__hd">
+      <view class="weui-label">地址</view>
+    </view>
+    <view class="weui-cell__bd">
+      <text class="weui-inputb" bindtap='tiaodz'>{{dizhi}}</text>
+    </view>
+  </view>
+  <view class="weui-cell weui-cell_input">
+    <view class="weui-cell__hd">
+      <view class="weui-label">电话</view>
+    </view>
+    <view class="weui-cell__bd">
+      <text class="weui-inputc" bindtap='tiaodh'>{{dianhua}}</text>
+    </view>
+  </view>
+  <view class="weui-cell weui-cell_input">
+    <view class="weui-cell__hd">
+      <view class="weui-label">公告</view>
+    </view>
+    <view class="weui-cell__bd">
+      <text class="weui-inputd" bindtap='tiaogg'>{{gonggao}}</text>
+    </view>
+  </view>
+  <view class="weui-cell weui-cell_input">
+    <view class="weui-cell__hd">
+      <view class="weui-label">营业时间</view>
+    </view>
+    <view class="weui-cell__bd">
+      <text class="weui-inpute" bindtap='tiaosj'>{{shijian}}</text>
+    </view>
+  </view>
+</view>
+
+<view class="anniu">       
+  <view class="caipin">
+    <button type="default" formType="submit" bindtap='tiaowdcp'>我的菜品</button>
+  </view>
+  <view class="dingdan">
+    <button type="default" formType="submit" bindtap='tiaowddd'>我的订单</button>
+  </view>
+</view>

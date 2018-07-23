@@ -1,0 +1,8 @@
+<!--pages/xinsj/xinsj.wxml-->
+<view class="shijsr">
+  <input class="jianjsra" type="text" placeholder="请输入新的公司营业时间" bindinput="shurusj"></input>
+</view>     
+<view class="anniu">
+  <button type="default" formType="submit" bindtap='queding'>确定</button>
+</view>
+

@@ -1,0 +1,40 @@
+.listContain {
+  flex-direction: row;
+  display: flex;
+  background-color: white;
+  width: 750rpx;
+}
+
+.cainameImage {
+  width: 300rpx;
+  height: 300rpx;
+}
+
+.caiContain {
+  display: flex;
+  flex-direction: column;
+  margin-left: 140rpx;
+  margin-top: 60rpx;
+  font-size:x-large;
+}
+
+.numberContain {
+  display: flex;
+  flex-direction: row;
+  margin-top: 60rpx;
+  margin-left: 40rpx;
+}
+
+.pricetext {
+  margin-right: 100rpx;
+  color: red;
+}
+
+.numberText {
+  color: red;
+}
+
+.blockcontain {
+  height: 10rpx;
+  width: 750rpx;
+}

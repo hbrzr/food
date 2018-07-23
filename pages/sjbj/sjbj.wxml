@@ -1,0 +1,56 @@
+<!--pages/sjbj/sjbj.wxml-->
+<import src="../../../common/head.wxml" />
+<import src="../../../common/foot.wxml" />
+
+<view class="container">
+  <view class="jianj">
+    <view class="jianjbt">
+      <view>简介</view>
+    </view>
+    <view class="jianjsr">
+      <textarea class="jianjsra" type="text" placeholder="请输入公司简介" bindinput="shurujj"></textarea>
+    </view>
+  </view>
+     
+  <view class="diz">
+    <view class="dizbt">
+      <view>地址</view>
+    </view>
+    <view class="dizsr">
+      <textarea class="dizsra" type="text" placeholder="请输入公司地址" bindinput="shurudz"></textarea>
+    </view>
+  </view>
+    
+  <view class="gongg">
+    <view class="gonggbt">
+      <view>公告</view>
+    </view>
+    <view class="gonggsr">
+      <textarea class="gonggsra" type="text" placeholder="请输入公司公告" bindinput="shurugg"></textarea>
+    </view>
+  </view>
+   
+  <view class="dianh">
+    <view class="dianhbt">
+      <view>电话</view>
+    </view>
+    <view class="dianhsr">
+      <input class="dianhsra" type="text" placeholder="请输入公司电话" bindinput="shurudh"></input>
+    </view>
+  </view>
+    
+  <view class="shij">
+    <view class="shijbt">
+      <view>营业时间</view>
+    </view>
+    <view class="shijsr">
+      <input class="shijsra" type="text" placeholder="请输入公司营业时间" bindinput="shurusj"></input>
+    </view>
+  </view>
+
+  <view class="queding">
+    <button type="primary" formType="submit" bindtap='huiwode'>确定</button>
+  </view>
+   
+</view>
+

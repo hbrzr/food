@@ -1,0 +1,45 @@
+<import src="/templates/caidan-template.wxml" />
+<view class='contain'>
+  <image src='{{name[shopid].nameimgsrc}}' class='diannameImage'></image>
+  <view class='Contain'>
+    <view class='timeContain'>
+      <text class='timeText'>营业时间:</text>
+      <text class='timetext'>{{name[shopid].nametime}}</text>
+    </view>
+    <view class='airContain'>
+      <text class='airText'>商家公告:</text>
+      <text class='airtext'>{{name[shopid].nameair}}</text>
+    </view>
+  </view>
+</view>
+<view class='listTopContain'></view>
+<view class='blockContain'>
+  <view class='caidanblock'>
+    <block wx:for="{{dianCai}}">
+      <template is="caidan" data="{{...item}}" />
+    </block>
+  </view>
+  <view class='numblock'>
+    <block wx:for="{{num}}">
+      <view class='numContain'>
+        <image src='../../images/jianhao.png' class='jianhaoImage' bindtap='deletenumber' data-idx='{{index}}' data-zong='{{num.length}}' data-price='{{dianCai[index].price}}' data-imgsrc="{{dianCai[index].imgsrc}}" data-cainame="{{dianCai[index].cainame}}">
+        </image>
+        <view class='numberTextContain'>
+          <text class='numbertext'>{{item}}</text>
+        </view>
+        <image src='../../images/jiahao.png' class='jiahaoImage' bindtap='addnumber' data-idx='{{index}}' data-zong='{{num.length}}' data-price='{{dianCai[index].price}}' data-imgsrc="{{dianCai[index].imgsrc}}" data-cainame="{{dianCai[index].cainame}}"></image>
+      </view>
+    </block>
+  </view>
+</view>
+<view class='caibottom'></view>
+
+<view class='tijiao'>
+  <view class='priceContain'>
+    <text class='hejiText'>合计:</text>
+    <text class='priceText'>￥{{numprice}}</text>
+  </view>
+  <view class='tijiaoContain' bindtap='tiJiao'>
+    <text class='tijiaoText'>提交</text>
+  </view>
+</view>

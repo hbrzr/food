@@ -1,0 +1,158 @@
+/* pages/pay/pay.wxss */
+
+.guodu {
+  width: 750rpx;
+  height: 50rpx;
+}
+
+.person {
+  display: flex;
+  flex-direction: column;
+}
+
+.nameContain {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sex {
+  margin-left: 20rpx;
+}
+
+.phone {
+  margin-left: 10px;
+}
+
+.phonenumber {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-weight: 100;
+  font-size: small;
+  margin-top: 1px;
+}
+
+.timeimg {
+  width: 40rpx;
+  height: 40rpx;
+  margin-right: 20px;
+}
+
+.meimg {
+  width: 30rpx;
+  height: 30rpx;
+  margin-right: 10px;
+}
+
+.picker {
+  font-weight: 600;
+  display: flex;
+  flex-direction: row;
+}
+
+.timetext {
+  color: red;
+}
+
+.middle {
+  display: flex;
+  flex-direction: column;
+}
+
+.shop {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  left: 25rpx;
+}
+
+.touxiang {
+  width: 50rpx;
+  height: 50rpx;
+}
+
+.name {
+  font-weight: 200;
+  margin-left: 20px;
+  font-size: medium;
+}
+
+.pay {
+  display: flex;
+  flex-direction: row;
+  width: 225rpx;
+  position: relative;
+  left: 525rpx;
+}
+
+.dingdan {
+  background-color: whitesmoke;
+  display: flex;
+  flex-direction: row;
+  width: 700rpx;
+  position: relative;
+  left: 25rpx;
+}
+
+.caipingimg {
+  width: 150rpx;
+  height: 150rpx;
+}
+
+.cainame {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  width: 300rpx;
+}
+
+.numbertext {
+  margin-top: 20rpx;
+  font-weight: 100;
+}
+
+.pricetext {
+  margin-left: 117rpx;
+  color: red;
+}
+
+.numprice {
+  color: red;
+  margin-left: 10px;
+}
+
+
+.beizhu {
+  margin-top: 40rpx;
+}
+
+.beizhucontain {
+  border: 5px solid ;
+  border-color: whitesmoke;
+  border-radius: 5px;
+  text-align: center;
+}
+.empty{
+  height: 300rpx;
+}
+
+.wxpay {
+  position: sticky;
+  margin-top: 100rpx;
+  width: 750rpx;
+  background-color: green;
+  color: white;
+  height: 80rpx;
+  display: flex;
+  align-items: center;
+}
+
+.wxpaytext {
+  width: 150rpx;
+  position: absolute;
+  left: 300rpx;
+  bottom: 10rpx;
+}
+
+

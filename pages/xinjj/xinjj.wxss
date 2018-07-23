@@ -1,0 +1,17 @@
+.anniu {
+ position: fixed;
+ bottom: 0;
+ width: 100%;
+}
+
+.jianjsr{
+  border:  2px solid blue;
+  border-radius: 40px;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-top: 15px;
+}
+
+.jianjsra{
+  margin-top: 60rpx;
+}

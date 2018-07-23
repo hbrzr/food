@@ -1,0 +1,169 @@
+/* pages/caiDan.wxss */
+@import "../../moban/caidan-template.wxss";
+.contain {
+  flex-direction: row;
+  display: flex;
+  align-items: center;
+  background-color: #505050;
+  position: fixed;
+  top: 0px;
+  width: 750rpx;
+  height: 200rpx;
+}
+
+.scjian{
+  border: 1px solid #70bcf6;
+  border-radius: 2px;  
+  background-color: white;
+  text-align: center;
+}
+
+.caipinbj{
+  border: 1px solid #70bcf6; 
+  border-radius: 2px;  
+  background-color: white;
+  text-align: center;
+}
+
+.caipinbj::after{
+  border: none; 
+}
+
+.caipinsc{
+  border: 1px solid #70bcf6; 
+  border-radius: 2px;  
+  background-color: white;
+  text-align: center;
+}
+
+.caipinsc::after{
+  border: none; 
+}
+
+.Contain {
+  flex-direction: column;
+  display: flex;
+  margin-left: 10px;
+}
+
+.timeContain {
+  flex-direction: row;
+  display: flex;
+  font-size: small;
+}
+
+.airContain {
+  flex-direction: column;
+  display: flex;
+  font-size: small;
+}
+
+.listTopContain {
+  width: 750rpx;
+  height: 200rpx;
+}
+
+.diannameImage {
+  width: 200rpx;
+  height: 200rpx;
+  margin-top: 0px;
+}
+
+.timeText {
+  color: white;
+}
+
+.airtext {
+  color: white;
+}
+
+.timetext {
+  color: white;
+}
+
+.airText {
+  color: white;
+}
+
+.caibottom {
+  height: 300rpx;
+  background-color: whitesmoke;
+}
+
+.tijiao {
+  width: 750rpx;
+  height: 80rpx;
+  display: flex;
+  flex-direction: row;
+  position: fixed;
+  bottom: 0px;
+  right: 2px;
+  background-color: #505050;
+}
+
+.tijiaoText {
+  line-height: 80rpx;
+  color: white;
+  font-size: 130%;
+}
+.jianhaoImage {
+  width: 60rpx;
+  height: 60rpx;
+}
+
+.jiahaoImage {
+  width: 60rpx;
+  height: 60rpx;
+}
+
+.numContain{
+  height: 215rpx;
+  display: flex;
+  flex-direction: row;
+  
+}
+.blockContain{
+  display: flex;
+  flex-direction: row;
+  width: 750rpx;
+}
+.numblock{
+  margin-left: 150rpx;
+}
+
+.caidanblock{
+  width: 750rpx;
+}
+.numbertext{
+  font-size:35rpx;
+  color: red;
+}
+.numberTextContain{
+  height: 50rpx;
+  width: 50rpx;
+}
+.hejiText{
+  line-height: 80rpx;
+  color: white;
+  margin-left: 20px;
+}
+.priceText{
+  line-height: 80rpx;
+  color: red;
+}
+.priceContain{
+width: 250rpx;
+
+}
+.tijiaoContain{
+margin-left: 350rpx;
+width: 160rpx;
+text-align:center;
+background-color: #F00000;
+}
+
+
+
+
+
+        

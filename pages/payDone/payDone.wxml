@@ -1,0 +1,5 @@
+<!--pages/payDone/payDone.wxml-->
+<view class='Contain'>
+<text class='payDone'>您已成功提交订单！</text>
+<text class='list' catchtap='list'>查看订单</text>
+</view>

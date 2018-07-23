@@ -1,0 +1,14 @@
+
+<block wx:for="{{restaurantlist}}" wx:key="">
+  <block wx:if="{{restaurantname==item.restaurantname}}">
+      <view>
+          <map
+          style="width: 100%; height: 300px;"
+          latitude="{{item.latitude}}"
+          longitude="{{item.longitude}}"
+          markers="{{item.markers}}"
+          >
+        </map>
+      </view>
+  </block>
+</block>

@@ -1,0 +1,8 @@
+<!--pages/xingg/xingg.wxml-->
+<view class="gonggsr">
+  <textarea class="jianjsra" type="text" placeholder="请输入新的公司公告" bindinput="shurugg"></textarea>
+</view>     
+<view class="anniu">
+  <button type="default" formType="submit" bindtap='queding'>确定</button>
+</view>
+

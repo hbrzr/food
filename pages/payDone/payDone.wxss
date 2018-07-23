@@ -1,0 +1,21 @@
+/* pages/payDone/payDone.wxss */
+.Contain{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.payDone{
+  position: fixed;
+  top: 300rpx;
+  font-size: x-large;
+  color:red;
+}
+.list{
+  position: fixed;
+  top: 800rpx;
+  color: white;
+  border: 1px solid blue;
+  border-radius: 5px;
+  font-size: x-large;
+  background-color:#6495ED;
+}

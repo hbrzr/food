@@ -1,0 +1,59 @@
+<view class='nameContain'>
+  <view class='phonenumber'>
+    <image src='/images/me.png' class='meimg'></image>
+    <text>{{use.use.name}}</text>
+    <text class='sex'>{{use.use.sex}}</text>
+    <text class='phone'>电话:</text>
+    <text>{{use.use.phonenumber}}</text>
+  </view>
+</view>
+<view class='guodu'></view>
+
+<view class='middle'>
+  <view class='shop'>
+    <image src='{{dianjia[0]}}' class='touxiang'></image>
+    <text class='name'>{{dianjia[1]}}</text>
+  </view>
+
+  <block wx:for="{{cailist}}">
+    <view class='dingdan'>
+      <image src='{{item[2]}}' class='caipingimg'></image>
+
+      <view class='cainame'>
+        <text>{{item[1]}}</text>
+        <text class='numbertext'>X{{item[3]}}</text>
+      </view>
+
+      <text class='pricetext'>￥{{item[0] * item[3]}}</text>
+
+    </view>
+  </block>
+</view>
+
+<view class='pay'>
+  <text>合计:</text>
+  <text class='numprice'>￥{{dianjia[2]}}</text>
+</view>
+
+<view class='guodu'></view>
+
+<view>
+  <picker mode="time" value="{{time}}" start="08:30" end="21:30" bindchange="bindTimeChange">
+    <view class="picker">
+      <image src='/images/time.png' class='timeimg'></image>
+      到店时间:
+      <text class='timetext'>{{time}}</text>
+    </view>
+  </picker>
+</view>
+
+<view class='beizhu'>备注:</view>
+<view class='beizhucontain'>
+  <input class='input' bindinput="bindTextAreaBlur">请在此输入</input>
+</view>
+
+<view class='wxpay' bindtap='wxpay'>
+  <text class='wxpaytext'>
+  确认提交
+  </text>
+</view>

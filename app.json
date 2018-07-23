@@ -1,0 +1,68 @@
+{
+  "pages": [
+    "pages/index/index",
+	"pages/Recommend/recommend",
+    "pages/Recommend/Detail/detail",
+    "pages/Recommend/Detail/baidubaike/baidubaike",
+    "pages/Recommend/Detail/dazhongdianping/dazhongdianping",
+    "pages/Recommend/Detail/map/map",
+    "pages/Mine/mine",
+    "pages/Order/order",
+    "tologin/tologin",
+    "pages/caiDan/caiDan",
+    "pages/pay/pay",
+    "pages/payDone/payDone",
+    "pages/cpbj/cpbj",
+    "pages/sjbj/sjbj",
+    "pages/shopindex/index",
+    "pages/log/logs",
+    "pages/wode/wode",
+    "pages/xinjj/xinjj",
+    "pages/xindz/xindz",
+    "pages/xingg/xingg",
+    "pages/xindh/xindh",
+    "pages/xinsj/xinsj",
+    "pages/detail/detail"
+  ],
+  "windows": {
+    "navigationBarBackgroundColor": "#ffffff",
+    "navigationBarTitleText": "点餐服务",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "#272636",
+    "selectedColor": "#ffd160",
+    "backgroundColor": "#fff",
+    "borderStyle": "#a8a8a8",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "pages/Res/Image/home.png",
+        "SelectedIconPath": "pages/Res/Image/home_selected.png",
+        "color": "white",
+        "text": "首页"
+      },
+	  {
+        "pagePath": "pages/Recommend/recommend",
+        "iconPath": "pages/Res/Image/推荐.png",
+        "SelectedIconPath": "pages/Res/Image/推荐1.png",
+        "color": "white",
+        "text": "推荐"
+      },
+      {
+        "pagePath": "pages/Order/order",
+        "iconPath": "pages/Res/Image/order.png",
+        "SelectedIconPath": "pages/Res/Image/order_selected.png",
+        "color": "black",
+        "text": "订单"
+      },
+      {
+        "pagePath": "pages/Mine/mine",
+        "iconPath": "pages/Res/Image/mine.png",
+        "SelectedIconPath": "pages/Res/Image/mine_selected.png",
+        "color": "white",
+        "text": "我"
+      }
+    ]
+  }
+}
